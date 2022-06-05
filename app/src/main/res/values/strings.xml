@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">myapp</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="loginbtn">Login</string>
+    <string name="create_new_account">Create new account?</string>
+    <string name="textview">TextView</string>
+    <string name="OR" />
+    <string name="or">OR</string>
+    <string name="todo">TODO</string>
+    <string name="twitter">TODO</string>
+    <string name="facebook">TODO</string>
+    <string name="Register" />
+    <string name="already_a_member" />
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Register_as_new_Member">Register</string>
+    <string name="Already_a_member">Already a member?</string>
+    <string name="Sign_Up">Sign up</string>
 </resources>

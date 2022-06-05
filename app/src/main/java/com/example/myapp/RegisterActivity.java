@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
-    TextView createnewAccount;
+
+    TextView alreadyHaveaccount;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        createnewAccount=findViewById(R.id.createNewaccount);
-
-
-        createnewAccount.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_register);
+        alreadyHaveaccount=findViewById(R.id.alreadyHaveaccount);
+        alreadyHaveaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,RegisterActivity.class));
+                startActivity(new Intent(RegisterActivity.this,MainActivity.class));
 
             }
         });
